@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us — DreamHomes Vanuatu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header small">
+    <h1>DreamHomes Vanuatu</h1>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="properties.html">Properties</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <article>
+      <h2>Our History</h2>
+      <p>DreamHomes Vanuatu was founded to provide local and international buyers with
+      access to the best properties across the islands.</p>
+
+      <h3>Our Services</h3>
+      <p>We offer sales, rentals, property management, and consultation for sustainable housing.
+      Our team knows the market across Vanuatu and provides friendly, reliable service.</p>
+
+      <h3>Meet the Team</h3>
+      <table class="staff-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Position</th>
+            <th>Experience</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Maria Tal</td>
+            <td>Managing Director</td>
+            <td>10 years</td>
+          </tr>
+          <tr>
+            <td>John Kalo</td>
+            <td>Senior Agent</td>
+            <td>7 years</td>
+          </tr>
+          <tr>
+            <td>Leah Manu</td>
+            <td>Sales Coordinator</td>
+            <td>4 years</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <figure class="office-figure">
+        <img src="images/office.jpg" alt="DreamHomes office"/>
+        <figcaption>Our office — Port Vila.</figcaption>
+      </figure>
+
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year2"></span> DreamHomes Vanuatu</p>
+  </footer>
+
+<script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+</body>
+</html>
